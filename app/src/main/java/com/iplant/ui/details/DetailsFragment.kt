@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.iplant.R
 import com.iplant.databinding.FragmentDetailsBinding
-import com.iplant.databinding.FragmentFavoritesBinding
+
 
 class DetailsFragment : Fragment() {
 
@@ -26,7 +26,7 @@ class DetailsFragment : Fragment() {
             inflater, R.layout.fragment_details, container, false
         )
 
-        binding.viewModel = detailsViewModel
+        //binding.viewModel = detailsViewModel
 
         return binding.root
     }

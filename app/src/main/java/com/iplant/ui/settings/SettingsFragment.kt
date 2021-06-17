@@ -4,13 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.iplant.R
-import com.iplant.databinding.FragmentFavoritesBinding
 import com.iplant.databinding.FragmentSettingsBinding
+
 
 class SettingsFragment : Fragment() {
 
@@ -27,6 +27,12 @@ class SettingsFragment : Fragment() {
             inflater, R.layout.fragment_settings, container, false
         )
 
+        binding.switch1.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            else AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+        }
+
+        //setOnClickListener { AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)}
         return binding.root
     }
 }
