@@ -1,6 +1,13 @@
 <resources>
-    <string translatable="false" name="app_name">iPlant</string>
-    <string name="menu_search">Search</string>
-    <string name="menu_favorites">Favorites</string>
-    <string name="menu_settings">Settings</string>
+    <string name="app_name">Nicolas iPlant Application</string>
+    <string name="Mesage">Hello World!</string>
+    <string name="activateNightModeSwitch">Activate night mode</string>
+    <string name="hideSynonyms">Hide synonyms in the details page</string>
+    <string name="write">WRITE US</string>
+    <string name="clearData">CLEAR ALL DATA</string>
+    <string name="plantName">Fridericia chica</string>
+    <string name="plantFamily">Trumpet-creeper family</string>
+    <string name="source">Ann. Missouri Bot. Gard. 99: 434 (2014)</string>
+    <string name="description">Tototot toto tototo</string>
+    <string name="commentButon">ADD A COMMENT</string>
 </resources>
