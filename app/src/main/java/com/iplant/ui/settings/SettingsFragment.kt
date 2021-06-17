@@ -27,12 +27,10 @@ class SettingsFragment : Fragment() {
             inflater, R.layout.fragment_settings, container, false
         )
 
-        binding.switch1.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-            else AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+        binding.switch1.setOnCheckedChangeListener { _, isChecked: Boolean->
+             AppCompatDelegate.setDefaultNightMode(if (isChecked) AppCompatDelegate.MODE_NIGHT_YES
+             else AppCompatDelegate.MODE_NIGHT_NO)
         }
-
-        //setOnClickListener { AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)}
         return binding.root
     }
 }
