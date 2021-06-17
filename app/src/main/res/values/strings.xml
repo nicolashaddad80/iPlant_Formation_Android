@@ -14,4 +14,5 @@
     <string name="menu_favorites">Favorites</string>
     <string name="menu_settings">Settings</string>
     <string name="nightMode">Activate night mode</string>
+    <string name="detailsButton">View details</string>
 </resources>
