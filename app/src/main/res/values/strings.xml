@@ -10,4 +10,7 @@
     <string name="source">Ann. Missouri Bot. Gard. 99: 434 (2014)</string>
     <string name="description">Tototot toto tototo</string>
     <string name="commentButon">ADD A COMMENT</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_settings">Settings</string>
 </resources>
