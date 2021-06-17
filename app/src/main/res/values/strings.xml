@@ -1,0 +1,6 @@
+<resources>
+    <string translatable="false" name="app_name">iPlant</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_settings">Settings</string>
+</resources>
